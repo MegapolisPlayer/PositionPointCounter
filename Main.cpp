@@ -39,7 +39,7 @@ int main(int argc, char **argv) {
 			std::cout << Id1 << " / " << Id2 << ":";
 			std::cin >> Temp;
 			if(Temp > AmountOfEntries) {
-				std::cout << "Position larger than amount of them.\n";
+				std::cout << "Position larger than amount of items.\n";
 				std::cout << "Press any key and enter to exit!\n";
 				std::cin >> Buffer;
 				return 1;
